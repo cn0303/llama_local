@@ -1,12 +1,10 @@
 ﻿# Running LLaMA 2 locally on a system and integrating it for HRI
 
-### By - Chandran N 
-
 Running LLMs locally could potentially offer many benefits such as lower latency, higher data security and freedom from continued reliance on unpredictable factors such as internet connection, API call request failure etc.
 
 This serves as a guide to run LLaMA 2 locally on a system though the performance will vary based on the specifications of the local computer. Ideally having a dedicated graphics card can improve speed and enable passing larger prompts to teach the model how to respond.
 
-For running LLaMA we will not be using the popular LLaMA.cpp but rather a newer and faster approach called PowerInfer. You can find more details here - https://github.com/SJTU-IPADS/PowerInfer
+For running LLaMA 2 we will not be using the popular LLaMA.cpp but rather a newer and faster approach called PowerInfer. You can find more details here - https://github.com/SJTU-IPADS/PowerInfer
 
 You can follow the installation instructions directly from the GitHub link provided above but to maintain homogenity of instruction all the steps necessary have been listed here as well.
 
